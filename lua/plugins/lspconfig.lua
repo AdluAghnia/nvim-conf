@@ -31,6 +31,10 @@ return {
 			lspconfig.htmx.setup({
 				capabilities = capabilities,
 			})
+
+			lspconfig.templ.setup({
+				capabilities = capabilities,
+			})
 		end,
 	},
 }
